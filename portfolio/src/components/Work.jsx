@@ -6,4 +6,4 @@ const Work = () => {
   )
 }
 
-export default W
+export default Work
