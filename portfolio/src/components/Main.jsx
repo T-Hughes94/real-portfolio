@@ -8,7 +8,7 @@ const Main = () => {
     <div id="main" className="relative w-full h-screen">
       <img
         className="w-full h-full object-cover object-left scale-x-[-1]"
-        src="./pic.svg"
+        src="https://static.vecteezy.com/system/resources/thumbnails/001/437/071/small_2x/elegant-clean-black-background-free-vector.jpg"
         alt="Background image"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-white/50 flex justify-center items-center">
