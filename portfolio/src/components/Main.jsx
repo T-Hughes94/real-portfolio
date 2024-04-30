@@ -1,13 +1,14 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Main = () => {
   return (
     <div id="main" className="relative w-full h-screen">
       <img
         className="w-full h-full object-cover object-left scale-x-[-1]"
-        src="https://i.pinimg.com/736x/fb/85/f7/fb85f791386cbfb8cc08ccaac1bb6b28.jpg"
+        src="./pic.svg"
         alt="Background image"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-white/50 flex justify-center items-center">
@@ -31,9 +32,15 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-center gap-4 mt-4">
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+            <a href="mailto:terencehughes450@gmail.com" target="_blank" rel="noopener noreferrer">
+              <AiOutlineMail className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/terence-hughes-27204128a/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/T-Hughes94" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
