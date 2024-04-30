@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
     <div id="main" className="relative w-full h-screen">
       <img
         className="w-full h-full object-cover object-left scale-x-[-1]"
-        src="https://static.vecteezy.com/system/resources/thumbnails/001/437/071/small_2x/elegant-clean-black-background-free-vector.jpg"
+        src="https://avatars.githubusercontent.com/u/133562544?v=4"
         alt="Background image"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-white/50 flex justify-center items-center">
