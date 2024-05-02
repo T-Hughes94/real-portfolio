@@ -33,9 +33,11 @@ const Main = () => {
               sequence={[
                 'Developer',
                 1000,
-                'Creator',
+                'Foodie',
                 1000,
-                'Tech Enthusiast',
+                'Nature Lover',
+                1000,
+                'Flatiron Graduate',
                 1000,
               ]}
               wrapper="div"
