@@ -10,7 +10,7 @@ const Projects = () => {
       <p className="text-center py-8">
        
       </p>
-      <div className="grid sm:grid-cols-2 gap-16"> {/* Corrected typo: grid */}
+      <div className="grid sm:grid-cols-2 gap-16 hover:scale-110 ease-in duration-200 cursor-pointer"> {/* Corrected typo: grid */}
         <ProjectItem 
           img={pocketChefImg} 
           title="Pocket Chef" 

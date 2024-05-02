@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject, AiOutlineRead,AiOutlineCoffee } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject, AiOutlineRead,AiOutlineCoffee,AiOutlineCode } from 'react-icons/ai';
 import { GrProjects } from 'react-icons/gr';
 import { BsPerson } from 'react-icons/bs';
 
@@ -37,6 +37,14 @@ const Sidenav = () => {
           >
             <AiOutlineCoffee size={20} />
             <span className="pl-4">About</span>
+          </a>
+          <a
+            href="#technical"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav} // Close the menu when clicked
+          >
+            <AiOutlineCode size={20} />
+            <span className="pl-4">Technical Skills</span>
           </a>
           <a
             href="#experience"
@@ -87,6 +95,12 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineCoffee size={20} />
+          </a>
+          <a
+            href="#technical"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlineCode size={20} />
           </a>
           <a
             href="#experience"

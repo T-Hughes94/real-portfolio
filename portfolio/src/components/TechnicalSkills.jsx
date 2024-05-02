@@ -12,10 +12,10 @@ import flaskLogo from '../assets/flask-logo.png';
 
 const TechnicalSkills = () => {
   return (
-    <div className="max-w-[1040px] mx-auto md:pl-20 p-4 py-16 text-center">
+    <div id="technical" className="max-w-[1040px] mx-auto md:pl-20 p-4 py-16 text-center">
       <h1 className="text-4xl font-bold text-[#001b5e]">Technical Skills</h1>
 
-      {/* Skills Grid */}
+      <p className="text-gray-700 text-lg my-4">Languages I have used. Click on the links for tutorials & documentation.</p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-8"> {/* Responsive grid layout */}
         
         {/* JavaScript */}
@@ -72,7 +72,7 @@ const TechnicalSkills = () => {
         <div className="flex flex-col items-center">
           <img src={htmlLogo} alt="html" className="w-16 h-16" />
           <a
-            href="https://www.freecodecamp.org/news/sql-and-databases-full-course/"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
@@ -84,7 +84,7 @@ const TechnicalSkills = () => {
         <div className="flex flex-col items-center">
           <img src={cssLogo} alt="html" className="w-16 h-16" />
           <a
-            href="https://www.freecodecamp.org/news/sql-and-databases-full-course/"
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
@@ -108,7 +108,7 @@ const TechnicalSkills = () => {
         <div className="flex flex-col items-center">
           <img src={tlwndLogo} alt="html" className="w-16 h-16" />
           <a
-            href="https://www.sqlalchemy.org/"
+            href="https://tailwindcss.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
