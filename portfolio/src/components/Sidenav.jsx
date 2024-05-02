@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject, AiOutlineRead } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject, AiOutlineRead,AiOutlineCoffee } from 'react-icons/ai';
 import { GrProjects } from 'react-icons/gr';
 import { BsPerson } from 'react-icons/bs';
 
@@ -31,6 +31,14 @@ const Sidenav = () => {
             <span className="pl-4">Home</span>
           </a>
           <a
+            href="#about"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav} // Close the menu when clicked
+          >
+            <AiOutlineCoffee size={20} />
+            <span className="pl-4">About</span>
+          </a>
+          <a
             href="#experience"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={closeNav} // Close the menu when clicked
@@ -46,7 +54,7 @@ const Sidenav = () => {
             <AiOutlineProject size={20} />
             <span className="pl-4">Projects</span>
           </a>
-          <a
+           <a
             href="#education"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={closeNav} // Close the menu when clicked
@@ -73,6 +81,12 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#about"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlineCoffee size={20} />
           </a>
           <a
             href="#experience"
