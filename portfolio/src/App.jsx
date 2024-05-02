@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import AboutMe from './components/AboutMe'
+import TechnicalSkills from './components/TechnicalSkills'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Sidenav/>
       <Main/>
       <AboutMe/>
+      <TechnicalSkills/>
       <Experience/>
       <Projects/>
       <Education/>
