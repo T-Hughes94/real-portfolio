@@ -10,7 +10,7 @@ const Education = () => {
         <img
           src={certificateImg}
           alt="Certificate"
-          className="w-64 h-auto object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
+          className="w-auto h-72 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
         />
         {/* Education Details */}
         <p className="text-center text-gray-700 mt-4">
