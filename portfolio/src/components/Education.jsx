@@ -14,8 +14,8 @@ const Education = () => {
         />
         {/* Education Details */}
         <p className="text-center text-gray-700 mt-4">
-          Bachelor of Science in Computer Science <br /> 
-          University of Example, 2020
+          Certificate of Completion <br /> 
+          Flatiron School, Denver, 2023
         </p>
       </div>
     </div>
