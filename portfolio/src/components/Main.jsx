@@ -24,13 +24,13 @@ const Main = () => {
           <h2 className='justify-center flex sm:text-3xl text-2xl pt-4 text-gray-800'>
             <TypeAnimation
               sequence={[
-                'Developer',
+                'Developer 💻',
                 1000,
-                'Foodie',
+                'Foodie 🌮',
                 1000,
-                'Nature Lover',
+                'Nature Lover 🌿',
                 1000,
-                'Flatiron Graduate',
+                'Flatiron Graduate 🎓',
                 1000,
               ]}
               wrapper="div"

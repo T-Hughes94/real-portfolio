@@ -14,8 +14,8 @@ const Projects = () => {
         <ProjectItem 
           img={pocketChefImg} 
           title="Pocket Chef" 
-          demoLink="https://example.com/demo-pocketchef" // Demo link
-          githubLink="https://github.com/your-github/pocketchef" // GitHub link
+          demoLink="https://www.loom.com/share/abaaddc84a8e45d491d0fe74f05b2b76" // Demo link
+          githubLink="https://github.com/T-Hughes94/python-p4-project-template/tree/Testing" // GitHub link
           
         />
         <ProjectItem 
