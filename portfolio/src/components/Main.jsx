@@ -48,7 +48,7 @@ const Main = () => {
           </h2>
 
           {/* Social Media Icons */}
-          <div className="flex justify-center gap-4 mt-4">
+          {/* <div className="flex justify-center gap-4 mt-4">
             <a href="mailto:terencehughes450@gmail.com" target="_blank" rel="noopener noreferrer">
               <AiOutlineMail className="cursor-pointer hover:scale-110 ease-in duration-150" size={20} />
             </a>
@@ -58,7 +58,7 @@ const Main = () => {
             <a href="https://github.com/T-Hughes94" target="_blank" rel="noopener noreferrer">
               <FaGithub className="cursor-pointer hover:scale-110 ease-in duration-150" size={20} />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

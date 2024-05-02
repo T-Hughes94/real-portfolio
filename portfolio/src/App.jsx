@@ -6,6 +6,7 @@ import Main from './components/Main'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Education from './components/Education'
+import AboutMe from './components/AboutMe'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <div>
       <Sidenav/>
       <Main/>
+      <AboutMe/>
       <Experience/>
       <Projects/>
       <Education/>

@@ -16,6 +16,7 @@ const Projects = () => {
           title="Pocket Chef" 
           demoLink="https://example.com/demo-pocketchef" // Demo link
           githubLink="https://github.com/your-github/pocketchef" // GitHub link
+          
         />
         <ProjectItem 
           img={toonRaterImg} 
