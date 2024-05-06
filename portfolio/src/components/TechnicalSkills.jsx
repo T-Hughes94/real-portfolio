@@ -25,7 +25,7 @@ const TechnicalSkills = () => {
             href="https://www.javascript.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn JavaScript
           </a>
@@ -38,7 +38,7 @@ const TechnicalSkills = () => {
             href="https://www.python.org"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn Python
           </a>
@@ -51,7 +51,7 @@ const TechnicalSkills = () => {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn React
           </a>
@@ -63,7 +63,7 @@ const TechnicalSkills = () => {
             href="https://www.freecodecamp.org/news/sql-and-databases-full-course/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn SQL
           </a>
@@ -75,7 +75,7 @@ const TechnicalSkills = () => {
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn HTML
           </a>
@@ -87,7 +87,7 @@ const TechnicalSkills = () => {
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn CSS
           </a>
@@ -99,7 +99,7 @@ const TechnicalSkills = () => {
             href="https://www.sqlalchemy.org/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn SQLalchemy
           </a>
@@ -111,7 +111,7 @@ const TechnicalSkills = () => {
             href="https://tailwindcss.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn Tailwind
           </a>
@@ -123,7 +123,7 @@ const TechnicalSkills = () => {
             href="https://flask.palletsprojects.com/en/3.0.x/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:scale-110 ease-in duration-100 hover:bg-blue-700 transition duration-300"
           >
             Learn FLask
           </a>
